@@ -44,6 +44,7 @@ export const TeamGallery = () => {
           <img src={Sofia} className="list__image" alt="Sofia" />
         </li>
       </ul>
+      <div className="line"></div>
     </div>
   );
 };

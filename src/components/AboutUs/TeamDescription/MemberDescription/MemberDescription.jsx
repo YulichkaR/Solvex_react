@@ -22,9 +22,7 @@ export const MemberDescription = ({
   return (
     <div className="our-team-description men">
       <div className="specific-description-of-the-person">
-        <h2 className="description__title valeriys__title">
-          {memberProffesion}
-        </h2>
+        <h2 className="description__title">{memberProffesion}</h2>
         <p className="description">{memberText}</p>
       </div>
 
