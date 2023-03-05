@@ -30,7 +30,7 @@ export const Header = () => {
       </div>
       <h1 className="header-text"> Знайди своє місце</h1>
       <p className="header-subtext">
-        Проєкт, покликаний зробити твій вечір затишним!!!
+        Проєкт, покликаний зробити твій вечір затишним
       </p>
     </header>
   );
