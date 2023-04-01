@@ -154,8 +154,8 @@ nav ul li a:hover {
 }
 .line {
   margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 90px;
+  margin-bottom: 30px;
   background-color: rgb(172, 172, 172);
   height: 2px;
 }
@@ -283,7 +283,7 @@ footer {
   margin-bottom: 30px;
 }
 .main-page-card {
-  height: 830px;
+  height: 800px;
   width: 32%;
   background-color: #d9d9d9;
   box-shadow: 0px 0px 12px 0px rgba(61, 55, 61, 0.7);
@@ -307,8 +307,8 @@ footer {
   justify-content: space-between;
 }
 .main-page-card-image {
-  width: 500px;
-  height: 270px;
+  width: 100%;
+  height: 300px;
 }
 .main-page-card-description {
   width: 93%;
@@ -331,13 +331,343 @@ footer {
   color: #000;
 }
 .main-page-card-map {
-  margin-top: 20px;
-  width: 495px;
-  height: 270px;
+  display: block;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: -2px;
+  width: 100%;
+  height: 230px;
 }
 .restaurant-valentino {
   margin-top: 60px;
 }
 .restaurant-star {
   margin-top: 120px;
+}
+.fathers-block-main-page__map {
+  position: relative;
+  width: 100%;
+}
+.pubs-cantona {
+  margin-top: 80px;
+}
+.pubs-rengen {
+  margin-top: 40px;
+}
+.restaurant-page {
+  background-color: #e9d7b5bd;
+}
+.restaurant-page-main-text {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 50px;
+}
+.restaurant-line {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 90px;
+  margin-bottom: 30px;
+  background-color: rgb(172, 172, 172);
+  height: 2px;
+}
+.ten-restaurants {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0px 0px 12px 0px rgba(61, 55, 61, 0.7);
+}
+
+.restaurant-page-panorama {
+  position: relative;
+  width: 60%;
+  height: 350px;
+  background-image: url("./img/panoramatry.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.restaurant-page-panorama::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #d7907291;
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
+}
+
+.restaurant-page-panorama:hover::after {
+  opacity: 0;
+}
+
+.restaurant-page-warsava {
+  position: relative;
+  width: 40%;
+  height: 350px;
+  background-image: url("./img/Warshava2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.restaurant-page-warsava::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #b881cb80;
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
+}
+
+.restaurant-page-warsava:hover::after {
+  opacity: 0;
+}
+
+.restaurant-page-rebernia {
+  position: relative;
+  width: 40%;
+  height: 350px;
+  background-image: url("./img/UnderArsenal.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.restaurant-page-rebernia::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #a72f3880;
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
+}
+
+.restaurant-page-rebernia:hover::after {
+  opacity: 0;
+}
+
+.restaurant-page-bachevskih {
+  position: relative;
+  width: 60%;
+  height: 350px;
+  background-image: url("./img/Bachevski.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.restaurant-page-bachevskih::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #3c672f80;
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
+}
+
+.restaurant-page-bachevskih:hover::after {
+  opacity: 0;
+}
+
+.restaurant-page-valentino {
+  position: relative;
+  width: 60%;
+  height: 350px;
+  background-image: url("./img/Valentino2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.restaurant-page-valentino::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #d1ab7180;
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
+}
+
+.restaurant-page-valentino:hover::after {
+  opacity: 0;
+}
+
+.restaurant-page-understar {
+  position: relative;
+  width: 40%;
+  height: 350px;
+  background-image: url("./img/UnderGoldStar.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.restaurant-page-understar::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #13b2d680;
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
+}
+
+.restaurant-page-understar:hover::after {
+  opacity: 0;
+}
+
+.restaurant-page-leopolis {
+  position: relative;
+  width: 40%;
+  height: 350px;
+  background-image: url("./img/Leopolis.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.restaurant-page-leopolis::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #b129e180;
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
+}
+
+.restaurant-page-leopolis:hover::after {
+  opacity: 0;
+}
+
+.restaurant-page-cloud {
+  position: relative;
+  width: 60%;
+  height: 350px;
+  background-image: url("./img/Cloudno7Panorama.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.restaurant-page-cloud::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #a0262680;
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
+}
+
+.restaurant-page-cloud:hover::after {
+  opacity: 0;
+}
+
+.restaurant-page-gasova {
+  position: relative;
+  width: 60%;
+  height: 350px;
+  background-image: url("./img/GasovaLampa.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.restaurant-page-gasova::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #8759007d;
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
+}
+
+.restaurant-page-gasova:hover::after {
+  opacity: 0;
+}
+
+.restaurant-page-stymari {
+  position: relative;
+  width: 40%;
+  height: 350px;
+  background-image: url("./img/Stumari.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.restaurant-page-stymari::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #3219d681;
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
+}
+
+.restaurant-page-stymari:hover::after {
+  opacity: 0;
+}
+
+.restaurant-page__text-block {
+  display: flex;
+  text-align: center;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+.restaurant-page__title {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 40px;
+  font-weight: 400;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+.restaurant-page-ten-lines {
+  margin: 0 auto;
+  width: 80%;
+  border: none;
+  border-top: 3px solid rgb(255, 255, 255);
+}
+.restaurant-page__address {
+  font-size: 22px;
+  font-weight: 400;
+  padding-top: 7px;
+  color: #ffffff;
+}
+.top-institutions-content-phone {
+  font-size: 22px;
+  font-weight: 400;
+  padding-top: 7px;
+  color: #ffffff;
+  text-decoration: none;
 }

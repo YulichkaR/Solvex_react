@@ -21,7 +21,9 @@ export const Card = ({
       <a href="tel:${cardnumber}" className="main-page-card-phone">
         Бронь: {cardNumber}
       </a>
-      <iframe src={cardAddress} className="main-page-card-map" />
+      <div className="fathers-block-main-page__map">
+        <iframe src={cardAddress} className="main-page-card-map" />
+      </div>
     </div>
   );
 };
