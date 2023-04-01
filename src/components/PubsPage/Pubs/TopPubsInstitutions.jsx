@@ -1,0 +1,101 @@
+import React from "react";
+import { PubsInstitutionsPages } from "./PubsInstitutionsPage";
+
+export const TopPubsInstitution = () => {
+  const TopPubsInstitution = [
+    {
+      pubIntitutionblock: "pub-page-friend",
+      pubInstitutiontextblock: "pub-page-friend-image",
+      pubInstitutionTitle: "Паб Добрий друг",
+      pubIntitutionText: "вулиця Лесі Українки, 19",
+      pubIntitutionNumber: "+380 (50) 537 12 46",
+    },
+    {
+      pubIntitutionblock: "pub-page-metro",
+      pubInstitutiontextblock: "pub-page-metro-image",
+      pubInstitutionTitle: "Метро-паб Станція Університетська",
+      pubIntitutionText: "вулиця Січових Стрільців, 10",
+      pubIntitutionNumber: "+380 (67) 476 49 75",
+    },
+    {
+      pubIntitutionblock: "pub-page-truth",
+      pubInstitutiontextblock: "pub-page-truth-image",
+      pubInstitutionTitle: "Театр пива Правда",
+      pubIntitutionText: "площа Ринок, 32",
+      pubIntitutionNumber: "+380 (50) 374 49 86",
+    },
+    {
+      pubIntitutionblock: "pub-page-cherry",
+      pubInstitutiontextblock: "pub-page-cherry-image",
+      pubInstitutionTitle: "Паб П'яна Вишня",
+      pubIntitutionText: "вулиця Арсенальна, 3",
+      pubIntitutionNumber: "+380 (67) 674 26 61",
+    },
+    {
+      pubIntitutionblock: "pub-page-boat",
+      pubInstitutiontextblock: "pub-page-boat-image",
+      pubInstitutionTitle: "Пивний бар Човен",
+      pubIntitutionText: "вулиця Вірменська, 33",
+      pubIntitutionNumber: "+380 (68) 380 50 72",
+    },
+    {
+      pubIntitutionblock: "pub-page-renthen",
+      pubInstitutiontextblock: "pub-page-renthen-image",
+      pubInstitutionTitle: "Паб 100 Рентген",
+      pubIntitutionText: "вулиця Петра Дорошенка, 50",
+      pubIntitutionNumber: "+380 (98) 314 94 14",
+    },
+    {
+      pubIntitutionblock: "pub-page-kantona",
+      pubInstitutiontextblock: "pub-page-kantona-image",
+      pubInstitutionTitle: "Паб Кантона",
+      pubIntitutionText: "вулиця Джохара Дудаєва, 16/1",
+      pubIntitutionNumber: "+380 (96) 997 06 55",
+    },
+    {
+      pubIntitutionblock: "pub-page-winston",
+      pubInstitutiontextblock: "pub-page-winston-image",
+      pubInstitutionTitle: "Паб Вінстона Черчілля",
+      pubIntitutionText: "вулиця Академіка Гнатюка, 4",
+      pubIntitutionNumber: "+380 (68) 123 46 67",
+    },
+    {
+      pubIntitutionblock: "pub-page-lion",
+      pubInstitutiontextblock: "pub-page-lion-image",
+      pubInstitutionTitle: "Паб Білий лев",
+      pubIntitutionText: "вулиця Лесі Українки, 15",
+      pubIntitutionNumber: "+380 (322) 35 46 25",
+    },
+    {
+      pubIntitutionblock: "pub-page-kumpel",
+      pubInstitutiontextblock: "pub-page-kumpel-image",
+      pubInstitutionTitle: "Ресторан-пивоварня Кумпель",
+      pubIntitutionText: "вулиця Володимира Винниченка, площа Митна, 6",
+      pubIntitutionNumber: "+380 (68) 998 99 94",
+    },
+  ];
+
+  return (
+    <div className="pub-page">
+      <p className="pub-page-main-text">
+        Хочеш відпочити і отримати заряд позитивних емоцій?! Тоді тобі до міста
+        Лева! Адже хороше пиво не тільки дарує гарний настрій, а й добре
+        зігріває.
+      </p>
+      <div className="pub-line"></div>
+      <div className="ten-pub">
+        {TopPubsInstitution.map((block) => {
+          return (
+            <PubsInstitutionsPages
+              pubIntitutionblock={block.pubIntitutionblock}
+              pubInstitutiontextblock={block.pubInstitutiontextblock}
+              pubInstitutionTitle={block.pubInstitutionTitle}
+              pubIntitutionText={block.pubIntitutionText}
+              pubIntitutionNumber={block.pubIntitutionNumber}
+            />
+          );
+        })}
+      </div>
+    </div>
+  );
+};
