@@ -17,14 +17,15 @@ export const Boat = () => {
       thirtyPagesInstagram:
         "https://www.instagram.com/explore/locations/1025102179/",
       thirtyPagesMap:
-        "https://www.google.com/maps/place/%D0%A7%D0%BE%D0%B2%D0%B5%D0%BD/@49.843397,24.0309949,17z/data=!3m1!4b1!4m6!3m5!1s0x473add6d18fbb801:0x1b294fa8b33cfd2!8m2!3d49.843397!4d24.0331836!16s%2Fg%2F1pp2v3cwt",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.9500000775465!2d24.033183599999997!3d49.84339699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6d18fbb801%3A0x1b294fa8b33cfd2!2z0KfQvtCy0LXQvQ!5e0!3m2!1suk!2sua!4v1680440181594!5m2!1suk!2sua",
     },
   ];
 
+  let havingAPhoho = false;
   return (
     <div>
-      <Header />
-      <div>
+      <Header havingAPhoho={havingAPhoho} />
+      <div className="thirty-institution-page">
         {Boat.map((block) => {
           return (
             <ExamplePage

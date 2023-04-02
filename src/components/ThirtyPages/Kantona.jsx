@@ -15,14 +15,15 @@ export const Kantona = () => {
       thirtyPagesLink: "https://www.facebook.com/CantonaPub",
       thirtyPagesInstagram: "https://www.instagram.com/kanatoba_laundzh/",
       thirtyPagesMap:
-        "https://www.google.com/maps?q=%D0%BA%D0%B0%D0%BD%D1%82%D0%BE%D0%BD%D0%B0+%D0%BF%D0%B0%D0%B1&sxsrf=APwXEdfT2zju6IWgPVfQN0YPGga0xk3h9w:1680399849487&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgAMg4ILhCvARDHARCABBDqBDIFCAAQgAQyBQgAEIAEMgUILhCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIZCC4QrwEQxwEQgAQQ6gQQ3AQQ3QQQ4AQYAToKCAAQRxDWBBCwAzoZCC4QrwEQxwEQgAQQ6gQQ3AQQ3gQQ4AQYAUoECEEYAFDTC1jTC2DHIWgBcAF4AIABX4gBX5IBATGYAQCgAQHIAQjAAQHaAQYIARABGBQ&um=1&ie=UTF-8&sa=X&ved=2ahUKEwj1hPijiYr-AhXo_CoKHUhwADUQ_AUoAXoECAEQAw",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.326841697161!2d24.02700841570928!3d49.836315979395295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6f1431709f%3A0x9c463fff056b2b1!2z0JrQsNC90YLQvtC90LA!5e0!3m2!1suk!2sua!4v1680441722383!5m2!1suk!2sua",
     },
   ];
 
+  let havingAPhoho = false;
   return (
     <div>
-      <Header />
-      <div>
+      <Header havingAPhoho={havingAPhoho} />
+      <div className="thirty-institution-page">
         {Kantona.map((block) => {
           return (
             <ExamplePage

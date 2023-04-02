@@ -15,14 +15,15 @@ export const Bachevsky = () => {
       thirtyPagesLink: "https://baczewski.com.ua/",
       thirtyPagesInstagram: "https://www.instagram.com/baczewskirestauracja/",
       thirtyPagesMap:
-        "https://www.google.com/maps/search/%D0%B1%D0%B0%D1%87%D0%B5%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D1%85/@49.8359906,24.0184622,15z/data=!3m1!4b1",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10293.376623557677!2d24.01846219204064!3d49.83599062032332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6d9bb8fee5%3A0x29a70f7e015e9f26!2z0KDQtdGB0YLQvtGA0LDRhtGW0Y8g0JHQsNGH0LXQstGB0YzQutC40YU!5e0!3m2!1suk!2sua!4v1680440122445!5m2!1suk!2sua",
     },
   ];
 
+  let havingAPhoho = false;
   return (
     <div>
-      <Header />
-      <div>
+      <Header havingAPhoho={havingAPhoho} />
+      <div className="thirty-institution-page">
         {Bachevsky.map((block) => {
           return (
             <ExamplePage

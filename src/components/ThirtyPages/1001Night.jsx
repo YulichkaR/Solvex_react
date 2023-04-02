@@ -16,14 +16,15 @@ export const Night = () => {
         "https://lviv.virtual.ua/ua/object/82058/Romantic-bar-1000+1-night.html",
       thirtyPagesInstagram: "https://www.facebook.com/1000i1night/",
       thirtyPagesMap:
-        "https://www.google.com/maps/search/1000%2B1+%D0%BD%D1%96%D1%87+%D1%81%D0%B0%D0%B9%D1%82/@49.8403264,24.0304188,17z/data=!3m1!4b1",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.113418867055!2d24.03041881570936!3d49.84032637939588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6c3bf4023b%3A0x5c2f1968597007bf!2zMTAwMCsxINC90ZbRhw!5e0!3m2!1suk!2sua!4v1680439823027!5m2!1suk!2sua",
     },
   ];
 
+  let havingAPhoho = false;
   return (
     <div>
-      <Header />
-      <div>
+      <Header havingAPhoho={havingAPhoho} />
+      <div className="thirty-institution-page">
         {Night.map((block) => {
           return (
             <ExamplePage

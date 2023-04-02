@@ -15,14 +15,15 @@ export const Goldenstar = () => {
       thirtyPagesLink: "https://veronica.ua/restaurants/apothecary-restaurant/",
       thirtyPagesInstagram: "https://www.instagram.com/undergoldstar/",
       thirtyPagesMap:
-        "https://www.google.com/maps?q=%D0%9A%D0%BE%D0%BD%D0%B4%D0%B8%D1%82%D0%B5%D1%80%D1%81%D1%8C%D0%BA%D0%B0-%D0%B0%D0%BF%D1%82%D0%B5%D0%BA%D0%B0+%22%D0%9F%D1%96%D0%B4+%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D1%8E+%D0%B7%D1%96%D1%80%D0%BA%D0%BE%D1%8E%22&sxsrf=APwXEddeTk5WFtC52KLQcTxO-e_RxBLFsw:1680401743165&uact=5&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIGCAAQFhAeMgYIABAWEB4yAggmSgQIQRgAUABYAGCaBmgAcAF4AIABYIgBYJIBATGYAQCgAQKgAQHAAQE&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiFwajTkIr-AhVHlYsKHfq7BDEQ_AUoAnoECAEQBA",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.175982480939!2d24.026220815709248!3d49.83915077939568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6e69655555%3A0x3f1d361a3dba1a0d!2z0JrQvtC90LTQuNGC0LXRgNGB0YzQutCwLdCw0L_RgtC10LrQsCDQhtC-0L3QvtCy0LjRhSDQn9GW0LQg0LfQvtC70L7RgtC-0Y4g0LfRltGA0LrQvtGO!5e0!3m2!1suk!2sua!4v1680442483464!5m2!1suk!2sua",
     },
   ];
 
+  let havingAPhoho = false;
   return (
     <div>
-      <Header />
-      <div>
+      <Header havingAPhoho={havingAPhoho} />
+      <div className="thirty-institution-page">
         {Goldenstar.map((block) => {
           return (
             <ExamplePage
@@ -43,4 +44,3 @@ export const Goldenstar = () => {
     </div>
   );
 };
-

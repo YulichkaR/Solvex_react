@@ -63,7 +63,7 @@ export const TopHookahsInstitution = () => {
       hookahIntitutionblock: "hookah-page-depo",
       hookahInstitutiontextblock: "hookah-page-depo-image",
       hookahInstitutionTitle: "Depo Lounge",
-      hookahIntitutionText: "м. Львів, вулиця Валова, 15",
+      hookahIntitutionText: "м. Львів,  вулиця Героїв Майдану, 10-12",
       hookahIntitutionNumber: "+380 (68) 535 89 37",
     },
     {

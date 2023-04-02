@@ -15,14 +15,15 @@ export const Truth = () => {
       thirtyPagesLink: "https://www.pravda.beer/",
       thirtyPagesInstagram: "https://www.instagram.com/pravdabeer/?hl=uk",
       thirtyPagesMap:
-        "https://www.google.com/maps?q=%D0%A2%D0%B5%D0%B0%D1%82%D1%80+%D0%BF%D0%B8%D0%B2%D0%B0+%22%D0%9F%D1%80%D0%B0%D0%B2%D0%B4%D0%B0%22&sxsrf=APwXEdeZ94B0-uvte37h-KTKTL123NppHg:1680401273018&uact=5&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCAAQgAQyCwguEK8BEMcBEIAEMgUIABCABDILCC4QgAQQxwEQrwEyBQgAEIAEMgUIABCABDIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjICCCZKBAhBGABQAFgAYIwQaABwAXgAgAFniAFnkgEDMC4xmAEAoAECoAEBwAEB&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjK-8iBj4r-AhWQtYsKHTPdC-UQ_AUoAXoECAEQAw",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20590.926740397306!2d24.003136978690815!3d49.826186631208174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6dbd59ba5b%3A0xa97158de035899b5!2z0KLQtdCw0YLRgCDQv9C40LLQsCDCq9Cf0YDQsNCy0LTQsMK7!5e0!3m2!1suk!2sua!4v1680442388145!5m2!1suk!2sua",
     },
   ];
 
+  let havingAPhoho = false;
   return (
     <div>
-      <Header />
-      <div>
+      <Header havingAPhoho={havingAPhoho} />
+      <div className="thirty-institution-page">
         {Truth.map((block) => {
           return (
             <ExamplePage

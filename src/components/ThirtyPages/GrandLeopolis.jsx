@@ -16,14 +16,15 @@ export const Leopolis = () => {
         "https://www.fest.lviv.ua/uk/restaurants/grandcafeleopolis/",
       thirtyPagesInstagram: "https://www.instagram.com/grandcafeleopolis/",
       thirtyPagesMap:
-        "https://www.google.com/maps?q=Grand+Cafe+Leopolis&sxsrf=APwXEdfWlMl4vTaTJfgkvKytVpc9ISh4sQ:1680398770041&uact=5&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIOCC4QrwEQxwEQgAQQ6gQyCAgAEIAEEMsBMggIABCABBDLATIFCAAQgAQyBQgAEIAEMgUIABCABDIZCC4QrwEQxwEQgAQQ6gQQ3AQQ3gQQ4AQYAUoECEEYAFAAWABg3AhoAHABeACAAWKIAWKSAQExmAEAoAECoAEBwAEB2gEGCAEQARgU&um=1&ie=UTF-8&sa=X&ved=2ahUKEwj6rc34hYr-AhUVzosKHYieBf4Q_AUoAnoECAEQBA",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.0332170733536!2d24.02893961570949!3d49.841833379395936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473addbfc5c37d2b%3A0xfb05241ec204fd30!2sGrand%20Cafe%20Leopolis!5e0!3m2!1suk!2sua!4v1680441445355!5m2!1suk!2sua",
     },
   ];
 
+  let havingAPhoho = false;
   return (
     <div>
-      <Header />
-      <div>
+      <Header havingAPhoho={havingAPhoho} />
+      <div className="thirty-institution-page">
         {Leopolis.map((block) => {
           return (
             <ExamplePage

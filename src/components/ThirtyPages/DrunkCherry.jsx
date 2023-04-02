@@ -15,14 +15,15 @@ export const Cherry = () => {
       thirtyPagesLink: "https://www.fest.lviv.ua/uk/restaurants/drunkcherry/",
       thirtyPagesInstagram: "https://www.instagram.com/pianavyshnia/",
       thirtyPagesMap:
-        "https://www.google.com/maps/dir//3,+%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%90%D1%80%D1%81%D0%B5%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0,+%D0%9B%D1%8C%D0%B2%D1%96%D0%B2,+%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+79000/@49.8412261,23.9650584,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x473add6c7b56c1ab:0x7c6c8f39da093dd6!2m2!1d24.035098!2d49.8412472",
+        "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d82338.0971646781!2d23.9650584!3d49.8412261!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6c7b56c1ab%3A0x7c6c8f39da093dd6!2z0J8n0Y_QvdCwINCS0LjRiNC90Y8!5e0!3m2!1suk!2sua!4v1680441074408!5m2!1suk!2sua",
     },
   ];
 
+  let havingAPhoho = false;
   return (
     <div>
-      <Header />
-      <div>
+      <Header havingAPhoho={havingAPhoho} />
+      <div className="thirty-institution-page">
         {Cherry.map((block) => {
           return (
             <ExamplePage
