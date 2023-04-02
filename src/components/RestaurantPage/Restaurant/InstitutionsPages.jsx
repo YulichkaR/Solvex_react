@@ -11,6 +11,8 @@ export const InstitutionsPages = ({
 }) => {
   const navigate = useNavigate();
   const handleClick = () => {
+    console.log(whereToNavigate);
+
     navigate(`${whereToNavigate}`);
   };
   return (

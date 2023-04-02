@@ -9,6 +9,7 @@ export const TopPubsInstitution = () => {
       pubInstitutionTitle: "Паб Добрий друг",
       pubIntitutionText: "м. Львів, вулиця Лесі Українки, 19",
       pubIntitutionNumber: "+380 (50) 537 12 46",
+      whereToNavigate: "/friend",
     },
     {
       pubIntitutionblock: "pub-page-metro",
@@ -16,6 +17,7 @@ export const TopPubsInstitution = () => {
       pubInstitutionTitle: "Метро-паб Станція Університетська",
       pubIntitutionText: "м. Львів, вулиця Січових Стрільців, 10",
       pubIntitutionNumber: "+380 (67) 476 49 75",
+      whereToNavigate: "/metro",
     },
     {
       pubIntitutionblock: "pub-page-truth",
@@ -23,6 +25,7 @@ export const TopPubsInstitution = () => {
       pubInstitutionTitle: "Театр пива Правда",
       pubIntitutionText: "м. Львів, площа Ринок, 32",
       pubIntitutionNumber: "+380 (50) 374 49 86",
+      whereToNavigate: "/truth",
     },
     {
       pubIntitutionblock: "pub-page-cherry",
@@ -30,6 +33,7 @@ export const TopPubsInstitution = () => {
       pubInstitutionTitle: "Паб П'яна Вишня",
       pubIntitutionText: "м. Львів, вулиця Арсенальна, 3",
       pubIntitutionNumber: "+380 (67) 674 26 61",
+      whereToNavigate: "/cherry",
     },
     {
       pubIntitutionblock: "pub-page-boat",
@@ -37,6 +41,7 @@ export const TopPubsInstitution = () => {
       pubInstitutionTitle: "Пивний бар Човен",
       pubIntitutionText: "м. Львів, вулиця Вірменська, 33",
       pubIntitutionNumber: "+380 (68) 380 50 72",
+      whereToNavigate: "/boat",
     },
     {
       pubIntitutionblock: "pub-page-renthen",
@@ -44,6 +49,7 @@ export const TopPubsInstitution = () => {
       pubInstitutionTitle: "Паб 100 Рентген",
       pubIntitutionText: "м. Львів, вулиця Петра Дорошенка, 50",
       pubIntitutionNumber: "+380 (98) 314 94 14",
+      whereToNavigate: "/renthen",
     },
     {
       pubIntitutionblock: "pub-page-kantona",
@@ -51,6 +57,7 @@ export const TopPubsInstitution = () => {
       pubInstitutionTitle: "Паб Кантона",
       pubIntitutionText: "м. Львів, вулиця Джохара Дудаєва, 16/1",
       pubIntitutionNumber: "+380 (96) 997 06 55",
+      whereToNavigate: "/kantona",
     },
     {
       pubIntitutionblock: "pub-page-winston",
@@ -58,6 +65,7 @@ export const TopPubsInstitution = () => {
       pubInstitutionTitle: "Паб Вінстона Черчілля",
       pubIntitutionText: "м. Львів, вулиця Академіка Гнатюка, 4",
       pubIntitutionNumber: "+380 (68) 123 46 67",
+      whereToNavigate: "/churchill",
     },
     {
       pubIntitutionblock: "pub-page-lion",
@@ -65,6 +73,7 @@ export const TopPubsInstitution = () => {
       pubInstitutionTitle: "Паб Білий лев",
       pubIntitutionText: "м. Львів, вулиця Лесі Українки, 15",
       pubIntitutionNumber: "+380 (322) 35 46 25",
+      whereToNavigate: "/lion",
     },
     {
       pubIntitutionblock: "pub-page-kumpel",
@@ -73,6 +82,7 @@ export const TopPubsInstitution = () => {
       pubIntitutionText:
         "м. Львів, вулиця Володимира Винниченка, площа Митна, 6",
       pubIntitutionNumber: "+380 (68) 998 99 94",
+      whereToNavigate: "/kumpel",
     },
   ];
 
@@ -93,6 +103,7 @@ export const TopPubsInstitution = () => {
               pubInstitutionTitle={block.pubInstitutionTitle}
               pubIntitutionText={block.pubIntitutionText}
               pubIntitutionNumber={block.pubIntitutionNumber}
+              whereToNavigate={block.whereToNavigate}
             />
           );
         })}
