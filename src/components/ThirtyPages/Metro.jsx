@@ -16,14 +16,15 @@ export const Metro = () => {
         "https://lviv.virtual.ua/ua/object/421867/Stantsiia-Universytetska-Subway-Station-Pub.html",
       thirtyPagesInstagram: "https://www.instagram.com/mpublviv/",
       thirtyPagesMap:
-        "https://www.google.com/maps?q=%D0%9C%D0%B5%D1%82%D1%80%D0%BE-%D0%BF%D0%B0%D0%B1+%22%D0%A1%D1%82%D0%B0%D0%BD%D1%86%D1%96%D1%8F+%D0%A3%D0%BD%D1%96%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D1%81%D1%8C%D0%BA%D0%B0%22&sxsrf=APwXEddSstDnCHG9Yqdm0GZWxuJ7MokBdQ:1680400423598&uact=5&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIHCCMQrgIQJzICCCY6CggAEEcQ1gQQsANKBAhBGABQzxZYpCZgzStoAXABeACAAYIBiAHHCpIBAzcuNpgBAKABAcgBCMABAQ&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjLw-K9i4r-AhXksYsKHY6AANsQ_AUoAXoECAEQAw",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.1026792742155!2d24.02197761570945!3d49.84052817939586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473adda989690661%3A0x98441a68265090d8!2z0JzQtdGC0YDQvi3Qv9Cw0LEgwqvQodGC0LDQvdGG0ZbRjyDQo9C90ZbQstC10YDRgdC40YLQtdGC0YHRjNC60LDCuw!5e0!3m2!1suk!2sua!4v1680442002010!5m2!1suk!2sua",
     },
   ];
 
+  let havingAPhoho = false;
   return (
     <div>
-      <Header />
-      <div>
+      <Header havingAPhoho={havingAPhoho} />
+      <div className="thirty-institution-page">
         {Metro.map((block) => {
           return (
             <ExamplePage

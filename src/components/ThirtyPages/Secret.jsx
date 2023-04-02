@@ -15,14 +15,15 @@ export const Secret = () => {
       thirtyPagesLink: "https://www.secretbar.lviv.ua/",
       thirtyPagesInstagram: "https://www.instagram.com/secretbarlviv/",
       thirtyPagesMap:
-        "https://www.google.com/maps?q=Secret+Bar+Lviv&sxsrf=APwXEdfLAvq_xfQKNE5aV3yVA0vN9QMCVg:1680400737326&uact=5&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIOCC4QgAQQxwEQrwEQ6gQyBQgAEIAEMgUIABCABDIGCAAQFhAeMgIIJjIZCC4QgAQQxwEQrwEQ6gQQ3AQQ3gQQ4AQYAUoECEEYAFAAWABgpgNoAHAAeACAAWSIAWSSAQMwLjGYAQCgAQKgAQHAAQHaAQYIARABGBQ&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiTmomSjYr-AhXS_CoKHU2rDvwQ_AUoAnoECAIQBA",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.1921234620772!2d24.024127115709284!3d49.83884747939566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add71ab53e345%3A0xd5d57d4acdd9041a!2sSecret%20Bar%20Lviv!5e0!3m2!1suk!2sua!4v1680442137890!5m2!1suk!2sua",
     },
   ];
 
+  let havingAPhoho = false;
   return (
     <div>
-      <Header />
-      <div>
+      <Header havingAPhoho={havingAPhoho} />
+      <div className="thirty-institution-page">
         {Secret.map((block) => {
           return (
             <ExamplePage

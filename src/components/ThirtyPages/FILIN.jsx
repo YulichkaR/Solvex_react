@@ -15,14 +15,15 @@ export const Filin = () => {
       thirtyPagesLink: "https://www.facebook.com/filinloungebar/?locale=ru_RU",
       thirtyPagesInstagram: "https://www.instagram.com/filin_lviv/",
       thirtyPagesMap:
-        "https://www.google.com/maps/place/FILIN+lounge+bar/@49.8403539,24.0215168,17z/data=!3m1!4b1!4m6!3m5!1s0x473addd37dc6902b:0x9d73a25294b35f92!8m2!3d49.8403539!4d24.0237055!16s%2Fg%2F11g0zxjb6d",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.111954250089!2d24.023705500000002!3d49.840353900000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473addd37dc6902b%3A0x9d73a25294b35f92!2sFILIN%20lounge%20bar!5e0!3m2!1suk!2sua!4v1680441240008!5m2!1suk!2sua",
     },
   ];
 
+  let havingAPhoho = false;
   return (
     <div>
-      <Header />
-      <div>
+      <Header havingAPhoho={havingAPhoho} />
+      <div className="thirty-institution-page">
         {Filin.map((block) => {
           return (
             <ExamplePage

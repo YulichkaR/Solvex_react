@@ -15,14 +15,15 @@ export const Chilling = () => {
       thirtyPagesLink: "https://chillinglviv.com/",
       thirtyPagesInstagram: "https://www.instagram.com/chillinglviv/",
       thirtyPagesMap:
-        "https://www.google.com/maps/place/Chilling+Lviv+-+%D0%A7%D0%B8%D0%BB%D1%96%D0%BD%D0%B3+%D0%9B%D1%8C%D0%B2%D1%96%D0%B2/@49.841599,24.0246298,17z/data=!3m1!4b1!4m6!3m5!1s0x473add6991963b85:0x4d9795c3d3ee1bbc!8m2!3d49.841599!4d24.0268185!16s%2Fg%2F11fm71nrfj",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.04569074563!2d24.026818499999997!3d49.841598999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6991963b85%3A0x4d9795c3d3ee1bbc!2zQ2hpbGxpbmcgTHZpdiAtINCn0LjQu9GW0L3QsyDQm9GM0LLRltCy!5e0!3m2!1suk!2sua!4v1680440273710!5m2!1suk!2sua",
     },
   ];
 
+  let havingAPhoho = false;
   return (
     <div>
-      <Header />
-      <div>
+      <Header havingAPhoho={havingAPhoho} />
+      <div className="thirty-institution-page">
         {Chilling.map((block) => {
           return (
             <ExamplePage

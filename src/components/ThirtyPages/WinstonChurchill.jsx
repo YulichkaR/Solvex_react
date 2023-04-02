@@ -15,14 +15,15 @@ export const Сhurchill = () => {
       thirtyPagesLink: "https://www.facebook.com/WinstonChurchillPubLviv/",
       thirtyPagesInstagram: "https://www.instagram.com/winston_churchill_pub/",
       thirtyPagesMap:
-        "https://www.google.com/maps?q=%D0%9F%D0%B0%D0%B1+%22%D0%92%D1%96%D0%BD%D1%81%D1%82%D0%BE%D0%BD%D0%B0+%D0%A7%D0%B5%D1%80%D1%87%D1%96%D0%BB%D0%BB%D1%8F%22&hotel_occupancy=2&sxsrf=APwXEdegYKWe4oGwE_B8BCr6YWTzgBAH6g:1680402442755&uact=5&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIOCC4QgAQQxwEQrwEQ6gQyBggAEBYQHjIICAAQFhAeEAoyBggAEBYQHjICCCYyGQguEIAEEMcBEK8BEOoEENwEEN4EEOAEGAE6BwgjEOoCECdKBAhBGABQngtYngtg6xNoAnABeACAAZMBiAGTAZIBAzAuMZgBAKABAaABArABCsABAdoBBggBEAEYFA&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjqnq-Yk4r-AhVU6CoKHYCtBFYQ_AUoAXoECAEQAw",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.055239481716!2d24.024120915709414!3d49.841419579395875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add721a7914c3%3A0x990470eb16afd6ea!2z0J_QsNCxINCS0ZbQvdGB0YLQvtC90LAg0KfQtdGA0YfRltC70LvRjyAo0JLRltC90YHRgtC-0L0g0KfQtdGA0YfQuNC70LvRjCDQv9Cw0LEp!5e0!3m2!1suk!2sua!4v1680442744809!5m2!1suk!2sua",
     },
   ];
 
+  let havingAPhoho = false;
   return (
     <div>
-      <Header />
-      <div>
+      <Header havingAPhoho={havingAPhoho} />
+      <div className="thirty-institution-page">
         {Сhurchill.map((block) => {
           return (
             <ExamplePage

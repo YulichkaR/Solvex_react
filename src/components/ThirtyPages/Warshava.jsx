@@ -15,14 +15,15 @@ export const Warshava = () => {
       thirtyPagesLink: "http://warszawa-hotel.com.ua/cuisine/",
       thirtyPagesInstagram: "https://www.instagram.com/warszawa.lviv/",
       thirtyPagesMap:
-        "https://www.google.com/maps/place/%D0%93%D0%BE%D1%82%D0%B5%D0%BB%D1%8C-%D1%80%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD+%D0%92%D0%B0%D1%80%D1%88%D0%B0%D0%B2%D0%B0+(Warszawa)/@49.8862894,24.05516,17z/data=!4m9!3m8!1s0x473adc8bdb83dbdb:0x1d1ce4d4934e75f5!5m2!4m1!1i2!8m2!3d49.8875634!4d24.0581113!16s%2Fg%2F11xdm8ds5",
+        "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2570.666489136887!2d24.05516!3d49.8862894!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473adc8bdb83dbdb%3A0x1d1ce4d4934e75f5!2z0JPQvtGC0LXQu9GMLdGA0LXRgdGC0L7RgNCw0L0g0JLQsNGA0YjQsNCy0LAgKFdhcnN6YXdhKQ!5e0!3m2!1suk!2sua!4v1680442595040!5m2!1suk!2sua",
     },
   ];
 
+  let havingAPhoho = false;
   return (
     <div>
-      <Header />
-      <div>
+      <Header havingAPhoho={havingAPhoho} />
+      <div className="thirty-institution-page">
         {Warshava.map((block) => {
           return (
             <ExamplePage

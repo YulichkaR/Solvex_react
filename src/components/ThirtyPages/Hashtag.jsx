@@ -15,14 +15,15 @@ export const Hashtag = () => {
       thirtyPagesLink: "https://hashtag-bar.com.ua/",
       thirtyPagesInstagram: "https://www.instagram.com/hashtag_lviv/",
       thirtyPagesMap:
-        "https://www.google.com/maps?q=hashtag+lounge+bar&sxsrf=APwXEdeuc25C3p7HqQdD3dyJpeste3uhYA:1680399106480&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgAMg4ILhCABBDHARCvARDqBDIFCAAQgAQyBQgAEIAEMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yGQguEIAEEMcBEK8BEOoEENwEEN4EEOAEGAFKBAhBGABQAFgAYKoMaABwAXgAgAFiiAFikgEBMZgBAKABAqABAcABAdoBBggBEAEYFA&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjgwZXph4r-AhWTuosKHf9pCI0Q_AUoAnoECAIQBA",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.1603576444895!2d24.029478015709394!3d49.83944437939577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6e9de0e7e1%3A0x8ab3c770d1b7b9e1!2z0KXQtdGI0YLQtdCz!5e0!3m2!1suk!2sua!4v1680441516455!5m2!1suk!2sua",
     },
   ];
 
+  let havingAPhoho = false;
   return (
     <div>
-      <Header />
-      <div>
+      <Header havingAPhoho={havingAPhoho} />
+      <div className="thirty-institution-page">
         {Hashtag.map((block) => {
           return (
             <ExamplePage

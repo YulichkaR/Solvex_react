@@ -15,14 +15,15 @@ export const Friend = () => {
       thirtyPagesLink: "https://www.goodfriend.net.ua/",
       thirtyPagesInstagram: "https://instagram.com/pubgoodfriend_lviv",
       thirtyPagesMap:
-        "https://www.google.com/maps?q=%D0%94%D0%BE%D0%B1%D1%80%D0%B8%D0%B9+%D0%B4%D1%80%D1%83%D0%B3&sxsrf=APwXEddM7S95qgNWMbNEBoRoMU2sgw03qw:1680398559877&uact=5&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIOCC4QrwEQxwEQgAQQ6gQyBQgAEIAEMgsILhCABBDHARCvATIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyCwguEK8BEMcBEIAEMgUIABCABDIFCAAQgAQ6GQguEK8BEMcBEIAEEOoEENwEEN4EEOAEGAFKBAhBGABQAFgAYN8EaABwAXgAgAFdiAFdkgEBMZgBAKABAqABAcABAdoBBggBEAEYFA&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjVw5OehYr-AhVixIsKHTGgAKMQ_AUoAXoECAIQAw",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20582.51448611719!2d23.998437278736468!3d49.8459464813632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6d5d9c4531%3A0x45f947dbf8fcc596!2z0JTQvtCx0YDQuNC5INCU0YDRg9Cz!5e0!3m2!1suk!2sua!4v1680441389437!5m2!1suk!2sua",
     },
   ];
 
+  let havingAPhoho = false;
   return (
     <div>
-      <Header />
-      <div>
+      <Header havingAPhoho={havingAPhoho} />
+      <div className="thirty-institution-page">
         {Friend.map((block) => {
           return (
             <ExamplePage

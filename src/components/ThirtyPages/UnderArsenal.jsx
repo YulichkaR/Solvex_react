@@ -15,14 +15,15 @@ export const Arsenal = () => {
       thirtyPagesLink: "https://www.facebook.com/rebernia",
       thirtyPagesInstagram: "https://www.instagram.com/rebernialviv/",
       thirtyPagesMap:
-        "https://www.google.com/maps/place/%D0%A0%D0%B5%D0%B1%D0%B5%D1%80%D0%BD%D1%8F+%22%D0%9F%D1%96%D0%B4+%D0%90%D1%80%D1%81%D0%B5%D0%BD%D0%B0%D0%BB%D0%BE%D0%BC%22/@49.8415093,24.0330241,17z/data=!3m1!4b1!4m6!3m5!1s0x473add6c880bd1a7:0xbdc0093e37e91a8d!8m2!3d49.8415093!4d24.0352128!16s%2Fg%2F11cnb5l_1f",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.050464568553!2d24.0352128!3d49.8415093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6c880bd1a7%3A0xbdc0093e37e91a8d!2z0KDQtdCx0LXRgNC90Y8gItCf0ZbQtCDQkNGA0YHQtdC90LDQu9C-0Lwi!5e0!3m2!1suk!2sua!4v1680442433697!5m2!1suk!2sua",
     },
   ];
 
+  let havingAPhoho = false;
   return (
     <div>
-      <Header />
-      <div>
+      <Header havingAPhoho={havingAPhoho} />
+      <div className="thirty-institution-page">
         {Arsenal.map((block) => {
           return (
             <ExamplePage

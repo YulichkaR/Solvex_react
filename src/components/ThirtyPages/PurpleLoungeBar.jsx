@@ -15,14 +15,15 @@ export const Purple = () => {
       thirtyPagesLink: "https://puprle-lounge.business.site/",
       thirtyPagesInstagram: "https://www.instagram.com/purple.lounge_lviv/",
       thirtyPagesMap:
-        "https://www.google.com/maps/place/Purple+Lounge/@49.842241,24.0237198,17z/data=!3m1!4b1!4m6!3m5!1s0x473add724099c295:0xf21d51061ee4f88e!8m2!3d49.842241!4d24.0259085!16s%2Fg%2F11f0_dm3pt",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.0115234008163!2d24.0259085!3d49.842240999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add724099c295%3A0xf21d51061ee4f88e!2sPurple%20Lounge!5e0!3m2!1suk!2sua!4v1680442066044!5m2!1suk!2sua",
     },
   ];
 
+  let havingAPhoho = false;
   return (
     <div>
-      <Header />
-      <div>
+      <Header havingAPhoho={havingAPhoho} />
+      <div className="thirty-institution-page">
         {Purple.map((block) => {
           return (
             <ExamplePage
