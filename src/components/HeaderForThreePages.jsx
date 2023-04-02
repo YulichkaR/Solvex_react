@@ -1,9 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
-export const Header = ({ havingAPhoho = false, photoToEachPage = "" }) => {
+export const HeaderForThreePages = ({ photoToEachPage, titleThreePages }) => {
   return (
-    <header className={`${havingAPhoho && photoToEachPage}`}>
+    <header className={`${photoToEachPage}`}>
       <div className="navbar">
         <div>
           <p className="logo-name">Solvex</p>
@@ -30,14 +29,9 @@ export const Header = ({ havingAPhoho = false, photoToEachPage = "" }) => {
           </div>
         </nav>
       </div>
-      {havingAPhoho && (
-        <>
-          <h1 className="header-text">Знайди своє місце</h1>
-          <p className="header-subtext">
-            Проєкт, покликаний зробити твій вечір затишним
-          </p>
-        </>
-      )}
+      <div className="header-for-three-pages">
+        <h1 className="header-three-pages-text">{titleThreePages}</h1>
+      </div>
     </header>
   );
 };
