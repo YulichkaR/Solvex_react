@@ -1,16 +1,6 @@
 import React from "react";
 import { InstitutionsPages } from "./InstitutionsPages";
 
-import Warshava from "../../../img/Warshava2.png";
-import UnderArsenal from "../../../img/UnderArsenal.png";
-import Bachevskih from "../../../img/Bachevski.png";
-import Valentino from "../../../img/Valentino2.png";
-import UnderGoldStar from "../../../img/UnderGoldStar.png";
-import GrandCafeLeopolis from "../../../img/Leopolis.png";
-import CLOUDno7Panorama from "../../../img/Cloudno7Panorama.png";
-import GasovaLampa from "../../../img/GasovaLampa.png";
-import Stumari from "../../../img/Stumari.png";
-
 export const TopRestaurantInstitution = () => {
   const TopRestaurantInstitution = [
     {
@@ -19,6 +9,7 @@ export const TopRestaurantInstitution = () => {
       retaurantInstitutionTitle: "Ресторан Панорама",
       restaurantIntitutionText: "Проспект Свободи, 45",
       restaurantIntitutionNumber: "+380 (32) 225 90 09",
+      whereToNavigate: "/",
     },
     {
       restaurantIntitutionblock: "restaurant-page-warsava",
@@ -104,6 +95,7 @@ export const TopRestaurantInstitution = () => {
               retaurantInstitutionTitle={block.retaurantInstitutionTitle}
               restaurantIntitutionText={block.restaurantIntitutionText}
               restaurantIntitutionNumber={block.restaurantIntitutionNumber}
+              whereToNavigate={block.whereToNavigate}
             />
           );
         })}

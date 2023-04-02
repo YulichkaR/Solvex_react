@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 export const Header = () => {
   return (
     <header className="background-for-page-about-us">
@@ -10,10 +11,10 @@ export const Header = () => {
           <div>
             <ul>
               <li>
-                <a href="#">Головна</a>
+                <Link to="/">Головна</Link>
               </li>
               <li>
-                <a href="#">Ресторани</a>
+                <Link to="/restaurant">Ресторани</Link>
               </li>
               <li>
                 <a href="#">Кальянні</a>
@@ -28,7 +29,7 @@ export const Header = () => {
           </div>
         </nav>
       </div>
-      <h1 className="header-text"> Знайди своє місце</h1>
+      <h1 className="header-text">Знайди своє місце</h1>
       <p className="header-subtext">
         Проєкт, покликаний зробити твій вечір затишним
       </p>
