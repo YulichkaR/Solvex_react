@@ -354,17 +354,23 @@ footer {
 .pubs-rengen {
   margin-top: 40px;
 }
-.restaurant-page {
+.restaurant-page,
+.hookah-page,
+.pub-page {
   background-color: #e9d7b5bd;
 }
-.restaurant-page-main-text {
+.restaurant-page-main-text,
+.hookah-page-main-text,
+.pub-page-main-text {
   width: 90%;
   margin: 0 auto;
   text-align: center;
   font-size: 25px;
   padding-top: 50px;
 }
-.restaurant-line {
+.restaurant-line,
+.hookah-line,
+.pub-line {
   width: 95%;
   margin: 0 auto;
   margin-top: 90px;
@@ -372,7 +378,9 @@ footer {
   background-color: rgb(172, 172, 172);
   height: 2px;
 }
-.ten-restaurants {
+.ten-restaurants,
+.ten-hookah,
+.ten-pub {
   width: 90%;
   margin: 0 auto;
   display: flex;
@@ -633,7 +641,9 @@ footer {
   opacity: 0;
 }
 
-.restaurant-page__text-block {
+.restaurant-page__text-block,
+.hookah-page__text-block,
+.pub-page__text-block {
   display: flex;
   text-align: center;
   height: 100%;
@@ -643,7 +653,9 @@ footer {
   position: relative;
   z-index: 1;
 }
-.restaurant-page__title {
+.restaurant-page__title,
+.hookah-page__title,
+.pub-page__title {
   width: 90%;
   margin: 0 auto;
   font-size: 40px;
@@ -652,13 +664,17 @@ footer {
   position: relative;
   z-index: 1;
 }
-.restaurant-page-ten-lines {
+.restaurant-page-ten-lines,
+.hookah-page-ten-lines,
+.pub-page-ten-lines {
   margin: 0 auto;
   width: 80%;
   border: none;
   border-top: 3px solid rgb(255, 255, 255);
 }
-.restaurant-page__address {
+.restaurant-page__address,
+.hookah-page__address,
+.pub-page__address {
   font-size: 22px;
   font-weight: 400;
   padding-top: 7px;
@@ -670,6 +686,512 @@ footer {
   padding-top: 7px;
   color: #ffffff;
   text-decoration: none;
+}
+
+.hookah-page-hashtad {
+  position: relative;
+  width: 60%;
+  height: 350px;
+  background-image: url("./img/HashtagLoungeBar.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hookah-page-hashtad::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #d7907291;
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
+}
+
+.hookah-page-hashtad:hover::after {
+  opacity: 0;
+}
+
+.hookah-page-chilling {
+  position: relative;
+  width: 40%;
+  height: 350px;
+  background-image: url("./img/Chilling.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hookah-page-chilling::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #b881cb80;
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
+}
+
+.hookah-page-chilling:hover::after {
+  opacity: 0;
+}
+
+.hookah-page-secret {
+  position: relative;
+  width: 40%;
+  height: 350px;
+  background-image: url("./img/SecretBarLviv.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hookah-page-secret::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #a72f3880;
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
+}
+
+.hookah-page-secret::after {
+  opacity: 0;
+}
+
+.hookah-page-purple {
+  position: relative;
+  width: 60%;
+  height: 350px;
+  background-image: url("./img/PurpleLounge.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hookah-page-purple::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #3c672f80;
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
+}
+
+.hookah-page-purple:hover::after {
+  opacity: 0;
+}
+
+.hookah-page-1001 {
+  position: relative;
+  width: 60%;
+  height: 350px;
+  background-image: url("./img/1001Nignt.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hookah-page-1001::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #d1ab7180;
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
+}
+
+.hookah-page-1001:hover::after {
+  opacity: 0;
+}
+
+.hookah-page-filin {
+  position: relative;
+  width: 40%;
+  height: 350px;
+  background-image: url("./img/FILINLoungeBar.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hookah-page-filin::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #13b2d680;
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
+}
+
+.hookah-page-filin:hover::after {
+  opacity: 0;
+}
+
+.hookah-page-bowl {
+  position: relative;
+  width: 40%;
+  height: 350px;
+  background-image: url("./img/HotBowl.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hookah-page-bowl::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #b129e180;
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
+}
+
+.hookah-page-bowl:hover::after {
+  opacity: 0;
+}
+
+.hookah-page-amsterdam {
+  position: relative;
+  width: 60%;
+  height: 350px;
+  background-image: url("./img/AmsterdamLoungeBar.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hookah-page-amsterdam::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #a0262680;
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
+}
+
+.hookah-page-amsterdam:hover::after {
+  opacity: 0;
+}
+
+.hookah-page-depo {
+  position: relative;
+  width: 60%;
+  height: 350px;
+  background-image: url("./img/DepoLounge.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hookah-page-depo::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #8759007d;
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
+}
+
+.hookah-page-depo:hover::after {
+  opacity: 0;
+}
+
+.hookah-page-sunset {
+  position: relative;
+  width: 40%;
+  height: 350px;
+  background-image: url("./img/SunsetLoungeBar.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hookah-page-sunset::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #3219d681;
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
+}
+
+.hookah-page-sunset:hover::after {
+  opacity: 0;
+}
+
+.pub-page-friend {
+  position: relative;
+  width: 60%;
+  height: 350px;
+  background-image: url("./img/GoodFriend.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.pub-page-friend::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #d7907291;
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
+}
+
+.pub-page-friend:hover::after {
+  opacity: 0;
+}
+
+.pub-page-metro {
+  position: relative;
+  width: 40%;
+  height: 350px;
+  background-image: url("./img/Metro.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.pub-page-metro::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #b881cb80;
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
+}
+
+.pub-page-metro:hover::after {
+  opacity: 0;
+}
+
+.pub-page-truth {
+  position: relative;
+  width: 40%;
+  height: 350px;
+  background-image: url("./img/Truth.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.pub-page-truth::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #a72f3880;
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
+}
+
+.pub-page-truth:hover::after {
+  opacity: 0;
+}
+
+.pub-page-cherry {
+  position: relative;
+  width: 60%;
+  height: 350px;
+  background-image: url("./img/DrunkCherry.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pub-page-cherry::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #3c672f80;
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
+}
+
+.pub-page-cherry:hover::after {
+  opacity: 0;
+}
+
+.pub-page-boat {
+  position: relative;
+  width: 60%;
+  height: 350px;
+  background-image: url("./img/Boat.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pub-page-boat::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #d1ab7180;
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
+}
+
+.pub-page-boat:hover::after {
+  opacity: 0;
+}
+
+.pub-page-renthen {
+  position: relative;
+  width: 40%;
+  height: 350px;
+  background-image: url("./img/Renthen.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pub-page-renthen::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #13b2d680;
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
+}
+
+.pub-page-renthen:hover::after {
+  opacity: 0;
+}
+
+.pub-page-kantona {
+  position: relative;
+  width: 40%;
+  height: 350px;
+  background-image: url("./img/Kantona.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pub-page-kantona::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #b129e180;
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
+}
+
+.pub-page-kantona:hover::after {
+  opacity: 0;
+}
+
+.pub-page-winston {
+  position: relative;
+  width: 60%;
+  height: 350px;
+  background-image: url("./img/WinstonChurchill.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pub-page-winston::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #a0262680;
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
+}
+
+.pub-page-winston:hover::after {
+  opacity: 0;
+}
+
+.pub-page-lion {
+  position: relative;
+  width: 60%;
+  height: 350px;
+  background-image: url("./img/WhiteLion.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pub-page-lion::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #8759007d;
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
+}
+
+.pub-page-lion:hover::after {
+  opacity: 0;
+}
+
+.pub-page-kumpel {
+  position: relative;
+  width: 40%;
+  height: 350px;
+  background-image: url("./img/Kumpel.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pub-page-kumpel::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #3219d681;
+  transition: opacity 0.5s ease-out;
+  opacity: 1;
+}
+
+.pub-page-kumpel:hover::after {
+  opacity: 0;
 }
 .thirty-institution-page {
   background-color: #e9d7b594;
