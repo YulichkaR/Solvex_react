@@ -6,11 +6,9 @@ import { RestaurantCards } from "./Cards/Card/RestaurantCards";
 import { HookahsCards } from "./Cards/Card/HookahsCards";
 import { PubsCards } from "./Cards/Card/PubsCards";
 export const MainPage = () => {
-  let havingAPhoho = true;
-  let photoToEachPage = "background-for-main-page";
   return (
     <div className="main-page">
-      <Header havingAPhoho={havingAPhoho} photoToEachPage={photoToEachPage} />
+      <Header />
       <BestLvivPlaces />
       <RestaurantCards />
       <HookahsCards />

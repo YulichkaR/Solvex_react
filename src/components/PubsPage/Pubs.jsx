@@ -1,16 +1,11 @@
 import React from "react";
-import { HeaderForThreePages } from "../HeaderForThreePages";
+import { Header } from "../common/Header/Header";
 import { Footer } from "../common/Header/Footer";
 import { TopPubsInstitution } from "./Pubs/TopPubsInstitutions";
 export const Pubs = () => {
-  let titleThreePages = "Паби";
-  let photoToEachPage = "background-for-page-pubs";
   return (
     <div className="main-page">
-      <HeaderForThreePages
-        titleThreePages={titleThreePages}
-        photoToEachPage={photoToEachPage}
-      />
+      <Header />
       <TopPubsInstitution />
       <Footer />
     </div>

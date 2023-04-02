@@ -9,7 +9,7 @@ export const TopRestaurantInstitution = () => {
       retaurantInstitutionTitle: "Ресторан Панорама",
       restaurantIntitutionText: "м. Львів, Проспект Свободи, 45",
       restaurantIntitutionNumber: "+380 (32) 225 90 09",
-      whereToNavigate: "/panorama",
+      whereToNavigate: "/",
     },
     {
       restaurantIntitutionblock: "restaurant-page-warsava",
@@ -17,7 +17,6 @@ export const TopRestaurantInstitution = () => {
       retaurantInstitutionTitle: "Ресторан Варшава",
       restaurantIntitutionText: "с. Малехів, вулиця Жовківська, 1",
       restaurantIntitutionNumber: "+380 (97) 203 10 20",
-      whereToNavigate: "/warsava",
     },
     {
       restaurantIntitutionblock: "restaurant-page-rebernia",
@@ -25,7 +24,6 @@ export const TopRestaurantInstitution = () => {
       retaurantInstitutionTitle: "Реберня Під Арсеналом",
       restaurantIntitutionText: "м. Львів, вулиця Підвальна, 5",
       restaurantIntitutionNumber: "+380 (67) 373 41 51",
-      whereToNavigate: "/arsenal",
     },
     {
       restaurantIntitutionblock: "restaurant-page-bachevskih",
@@ -33,7 +31,6 @@ export const TopRestaurantInstitution = () => {
       retaurantInstitutionTitle: "Ресторація Бачевських",
       restaurantIntitutionText: "м. Львів, вулиця Шевська, 8",
       restaurantIntitutionNumber: "+380 (98) 224 44 44",
-      whereToNavigate: "/bachevsky",
     },
     {
       restaurantIntitutionblock: "restaurant-page-valentino",
@@ -41,7 +38,6 @@ export const TopRestaurantInstitution = () => {
       retaurantInstitutionTitle: "Ресторан Валентино",
       restaurantIntitutionText: "м. Львів, вулиця Нижанківського, 20",
       restaurantIntitutionNumber: "+380 (32) 235 67 66",
-      whereToNavigate: "/valentino",
     },
     {
       restaurantIntitutionblock: "restaurant-page-understar",
@@ -49,7 +45,6 @@ export const TopRestaurantInstitution = () => {
       retaurantInstitutionTitle: "Кондитерська-аптека Під золотою зіркою",
       restaurantIntitutionText: "м. Львів, вулиця Миколи Коперника, 1",
       restaurantIntitutionNumber: "+380(32) 297 10 79",
-      whereToNavigate: "/goldenstar",
     },
     {
       restaurantIntitutionblock: "restaurant-page-leopolis",
@@ -57,7 +52,6 @@ export const TopRestaurantInstitution = () => {
       retaurantInstitutionTitle: "Grand Cafe Leopolis",
       restaurantIntitutionText: "м. Львів, площа Ринок, 1",
       restaurantIntitutionNumber: "+380 (97) 997 55 65",
-      whereToNavigate: "/leopolis",
     },
     {
       restaurantIntitutionblock: "restaurant-page-cloud",
@@ -65,7 +59,6 @@ export const TopRestaurantInstitution = () => {
       retaurantInstitutionTitle: "CLOUD no.7 Panorama",
       restaurantIntitutionText: "м. Львів, Соборна площа, 14",
       restaurantIntitutionNumber: "+380 (98) 111 00 07",
-      whereToNavigate: "/panorama",
     },
     {
       restaurantIntitutionblock: "restaurant-page-gasova",
@@ -73,7 +66,6 @@ export const TopRestaurantInstitution = () => {
       retaurantInstitutionTitle: "Гасова лямпа",
       restaurantIntitutionText: "м. Львів, вулиця Вірменська, 20",
       restaurantIntitutionNumber: "+380 (50) 371 09 08",
-      whereToNavigate: "/lampa",
     },
     {
       restaurantIntitutionblock: "restaurant-page-stymari",
@@ -81,7 +73,6 @@ export const TopRestaurantInstitution = () => {
       retaurantInstitutionTitle: "Ресторан грузинської кухні Стумарі",
       restaurantIntitutionText: "м. Львів, вулиця Лесі Українки, 20",
       restaurantIntitutionNumber: "+380 (67) 238 24 94",
-      whereToNavigate: "/stumari",
     },
   ];
 
