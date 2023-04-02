@@ -1,13 +1,20 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
+
 export const InstitutionsPages = ({
   restaurantIntitutionblock,
   restaurantInstitutiontextblock,
   retaurantInstitutionTitle,
   restaurantIntitutionText,
   restaurantIntitutionNumber,
+  whereToNavigate,
 }) => {
+  const navigate = useNavigate();
+  const handleClick = () => {
+    navigate(`${whereToNavigate}`);
+  };
   return (
-    <div className={`${restaurantIntitutionblock}`}>
+    <div onClick={handleClick} className={`${restaurantIntitutionblock}`}>
       <div
         className={`restaurant-page__text-block ${restaurantInstitutiontextblock}`}
       >
