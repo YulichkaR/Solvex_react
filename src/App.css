@@ -671,3 +671,61 @@ footer {
   color: #ffffff;
   text-decoration: none;
 }
+.thirty-institution-page {
+  background-color: #e9d7b594;
+}
+.thirty-pags__title {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #8d8888;
+  font-size: 60px;
+  text-align: center;
+}
+.thirty-pages-main-block {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+.thirty-pages-panorama {
+  width: 40%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./img/panoramatry.png");
+}
+.thirty-pages-content__block {
+  display: flex;
+  margin-bottom: 20px;
+}
+.thirty-pages-instagram {
+  width: 20px;
+  height: 20px;
+}
+.thirty-pages-text__block {
+  padding-left: 30px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.thirty-pages-paragragh {
+  color: #8d8888;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 15px;
+}
+.thirty-pages-details {
+  display: flex;
+  flex-direction: column;
+}
+.thirty-pages-information {
+  color: #8d8888;
+  font-size: 20px;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+.thirty-pages-map {
+  width: 100%;
+  height: 400px;
+}

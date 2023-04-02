@@ -18,11 +18,11 @@ export const Panorama = () => {
         "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.933869755741!2d24.023364416059515!3d49.843700079396285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add83b0f3dab5%3A0x45a28c060ee13de5!2z0KDQtdGB0YLQvtGA0LDQvSDCq9Cf0LDQvdC-0YDQsNC80LDCuw!5e0!3m2!1suk!2sua!4v1680392929197!5m2!1suk!2sua",
     },
   ];
-
+  let havingAPhoho = false;
   return (
     <div>
-      <Header />
-      <div>
+      <Header havingAPhoho={havingAPhoho} />
+      <div className="thirty-institution-page">
         {Panorama.map((block) => {
           return (
             <ExamplePage
