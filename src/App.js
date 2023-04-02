@@ -1,11 +1,11 @@
 import "./App.css";
+import { Routes, Route } from "react-router-dom";
+
 import { AboutUs } from "./components/AboutUs/AboutUs";
 import { MainPage } from "./components/MainPage/MainPage";
 import { Restaurant } from "./components/RestaurantPage/Restaurant";
-
 import { Pubs } from "./components/PubsPage/Pubs";
 import { Hookahs } from "./components/HookahsPage/Hookahs";
-import { Routes, Route } from "react-router-dom";
 
 import { Renthen } from "./components/ThirtyPages/100Renthen";
 import { Night } from "./components/ThirtyPages/1001Night";
