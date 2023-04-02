@@ -9,9 +9,9 @@ export const Panorama = () => {
       differentImages: "thirty-pages-panorama",
       thirtyPagesText:
         "Бажаєте побачити центр Львова як на долоні? Ресторан Панорама у Львові запрошує всіх відвідувачів помилуватися унікальним видом міста, зручно влаштувавшись на терасі або в залі.Вишукана атмосфера ресторану «Панорама», стильний інтер'єр та чудовий краєвид зроблять Ваше перебування тут незабутнім.",
-      thirtyPagesAddress: "Проспект Свободи, 45",
+      thirtyPagesAddress: "м. Львів, Проспект Свободи, 45",
       thirtyPagesWorkTime: "08:00-22:00",
-      thirtyPagesNumber: "+38 (032) 225-90-09",
+      thirtyPagesNumber: "+38 (032) 225 90 09",
       thirtyPagesLink: "https://panorama-hotel.com.ua/ru/",
       thirtyPagesInstagram: "https://www.instagram.com/panorama.lviv/",
       thirtyPagesMap:
