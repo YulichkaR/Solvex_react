@@ -15,14 +15,15 @@ export const Valentino = () => {
       thirtyPagesLink: "https://valentino.lviv.ua/ru/",
       thirtyPagesInstagram: "https://www.instagram.com/valentino__restaurant/",
       thirtyPagesMap:
-        "https://www.google.com/maps?q=%D0%A0%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD+%22%D0%92%D0%B0%D0%BB%D0%B5%D0%BD%D1%82%D0%B8%D0%BD%D0%BE%22&sxsrf=APwXEddPnp0TuSflQk0Yt2s763vmK9OVlQ:1680401916266&uact=5&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIOCC4QrwEQxwEQgAQQ6gQyBQgAEIAEMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIZCC4QrwEQxwEQgAQQ6gQQ3AQQ3QQQ4AQYAToHCCMQ6gIQJzoZCC4QrwEQxwEQgAQQ6gQQ3AQQ3gQQ4AQYAUoECEEYAFCYDFiYDGDbD2gCcAF4AIABZYgBZZIBAzAuMZgBAKABAaABArABCsABAdoBBggBEAEYFA&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjF2NGTkYr-AhXy-yoKHXRzAAMQ_AUoAnoECAEQBA",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.242307456511!2d24.03003851570931!3d49.83790447939552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add692ceaa9f5%3A0xd93b3b001c1cf02e!2z0JLQsNC70LXQvdGC0LjQvdC-IChWYWxlbnRpbm8gcmVzdGF1cmFudCk!5e0!3m2!1suk!2sua!4v1680442536273!5m2!1suk!2sua",
     },
   ];
 
+  let havingAPhoho = false;
   return (
     <div>
-      <Header />
-      <div>
+      <Header havingAPhoho={havingAPhoho} />
+      <div className="thirty-institution-page">
         {Valentino.map((block) => {
           return (
             <ExamplePage

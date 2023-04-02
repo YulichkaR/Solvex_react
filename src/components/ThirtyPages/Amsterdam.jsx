@@ -15,14 +15,15 @@ export const Amsterdam = () => {
       thirtyPagesLink: "https://amsterdamlviv.com.ua/",
       thirtyPagesInstagram: "https://www.instagram.com/amsterdamlviv/",
       thirtyPagesMap:
-        "https://www.google.com/maps/place/Amsterdam+Lounge+Bar/@49.8400371,24.0310622,17z/data=!3m1!4b1!4m6!3m5!1s0x473add6c179ab3dd:0xee486f48d878cd6a!8m2!3d49.8400371!4d24.0332509!16s%2Fg%2F11gfjbh4q_",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.1286344553255!2d24.028766234096803!3d49.840040473143546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6c179ab3dd%3A0xee486f48d878cd6a!2sAmsterdam%20Lounge%20Bar!5e0!3m2!1suk!2sua!4v1680439962492!5m2!1suk!2sua",
     },
   ];
 
+  let havingAPhoho = false;
   return (
     <div>
-      <Header />
-      <div>
+      <Header havingAPhoho={havingAPhoho} />
+      <div className="thirty-institution-page">
         {Amsterdam.map((block) => {
           return (
             <ExamplePage

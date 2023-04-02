@@ -1272,3 +1272,264 @@ footer {
   width: 100%;
   height: 400px;
 }
+
+.thirty-pages-renthen {
+  width: 40%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./img/100Rengen.png");
+}
+
+.thirty-pages-1001night {
+  width: 40%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./img/1001Nignt.jpg");
+}
+
+.thirty-pages-amsterdam {
+  width: 40%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./img/AmsterdamLoungeBar.jpg");
+}
+
+.thirty-pages-bachevsky {
+  width: 40%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./img/Bachevski.png");
+}
+
+.thirty-pages-boat {
+  width: 40%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./img/Boat.png");
+}
+
+.thirty-pages-сhilling {
+  width: 40%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./img/Chilling.jpg");
+}
+
+.thirty-pages-cloud {
+  width: 40%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./img/Cloudno7Panorama.png");
+}
+
+.thirty-pages-depo {
+  width: 40%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./img/DepoLounge.jpg");
+}
+
+.thirty-pages-cherry {
+  width: 40%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./img/DrunkCherry.png");
+}
+
+.thirty-pages-filin {
+  width: 40%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./img/FILINLoungeBar.jpg");
+}
+
+.thirty-pages-lampa {
+  width: 40%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./img/GasovaLampa.png");
+}
+
+.thirty-pages-friend {
+  width: 40%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./img/GoodFriend.png");
+}
+
+.thirty-pages-leopolis {
+  width: 40%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./img/Leopolis.png");
+}
+
+.thirty-pages-hashtag {
+  width: 40%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./img/HashtagLoungeBar.jpg");
+}
+
+.thirty-pages-hotbowl {
+  width: 40%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./img/HotBowl.jpg");
+}
+
+.thirty-pages-kantona {
+  width: 40%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./img/Kantona.png");
+}
+
+.thirty-pages-kumpel {
+  width: 40%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./img/Kumpel.png");
+}
+
+.thirty-pages-metro {
+  width: 40%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./img/Metro.png");
+}
+
+.thirty-pages-purple {
+  width: 40%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./img/PurpleLounge.jpg");
+}
+
+.thirty-pages-secret {
+  width: 40%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./img/SecretBarLviv.jpg");
+}
+
+.thirty-pages-strumari {
+  width: 40%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./img/Stumari.png");
+}
+
+.thirty-pages-sunset {
+  width: 40%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./img/SunsetLoungeBar.jpg");
+}
+
+.thirty-pages-truth {
+  width: 40%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./img/Truth.png");
+}
+
+.thirty-pages-arsenal {
+  width: 40%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./img/UnderArsenal.png");
+}
+
+.thirty-pages-goldenstar {
+  width: 40%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./img/UnderGoldStar.png");
+}
+
+.thirty-pages-valentino {
+  width: 40%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./img/Valentino2.png");
+}
+
+.thirty-pages-warshava {
+  width: 40%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./img/Warshava2.png");
+}
+
+.thirty-pages-lion {
+  width: 40%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./img/WhiteLion.png");
+}
+
+.thirty-pages-churchill {
+  width: 40%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./img/WinstonChurchill.png");
+}

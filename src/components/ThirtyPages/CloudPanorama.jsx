@@ -18,11 +18,11 @@ export const Cloud = () => {
         "https://www.google.com/maps?q=CLOUD+no.7+Panorama&sxsrf=APwXEdfjciGTfIoshH8SCj6C9lF37S6ikA:1680397520709&uact=5&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIOCC4QrwEQxwEQgAQQ6gQyBQgAEIAEMggIABCABBDLATIFCAAQgAQyBggAEBYQHjIGCAAQFhAeMgIIJjoZCC4QrwEQxwEQgAQQ6gQQ3AQQ3gQQ4AQYAUoECEEYAFAAWABg8AdoAHAAeACAAWiIAWiSAQMwLjGYAQCgAQKgAQHAAQHaAQYIARABGBQ&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjcg6X3gIr-AhVlAxAIHXliDaYQ_AUoAnoECAIQBA",
     },
   ];
-
+  let havingAPhoho = false;
   return (
     <div>
-      <Header />
-      <div>
+      <Header havingAPhoho={havingAPhoho} />
+      <div className="thirty-institution-page">
         {Cloud.map((block) => {
           return (
             <ExamplePage

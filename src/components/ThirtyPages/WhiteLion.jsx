@@ -15,14 +15,15 @@ export const Lion = () => {
       thirtyPagesLink: "http://www.white-lion.com.ua/",
       thirtyPagesInstagram: "https://www.instagram.com/white.lion.pub/",
       thirtyPagesMap:
-        "https://www.google.com/maps/place/%D0%91%D1%96%D0%BB%D0%B8%D0%B9+%D0%9B%D0%B5%D0%B2/@49.8438404,24.028155,17z/data=!3m1!4b1!4m6!3m5!1s0x473add6d60c6f503:0x78de839587766624!8m2!3d49.8438404!4d24.0303437!16s%2Fg%2F11b5wjllb0",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.9264016668135!2d24.0303437!3d49.8438404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6d60c6f503%3A0x78de839587766624!2z0JHRltC70LjQuSDQm9C10LI!5e0!3m2!1suk!2sua!4v1680442646938!5m2!1suk!2sua",
     },
   ];
 
+  let havingAPhoho = false;
   return (
     <div>
-      <Header />
-      <div>
+      <Header havingAPhoho={havingAPhoho} />
+      <div className="thirty-institution-page">
         {Lion.map((block) => {
           return (
             <ExamplePage

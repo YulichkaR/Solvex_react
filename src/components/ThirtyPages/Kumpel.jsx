@@ -16,14 +16,15 @@ export const Kumpel = () => {
       thirtyPagesLink: "https://kumpel-beer.com/pyvovarnya/",
       thirtyPagesInstagram: "https://www.instagram.com/kumpel_lviv/",
       thirtyPagesMap:
-        "https://www.google.com/maps/place/%D0%A0%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD-%D0%BF%D0%B8%D0%B2%D0%BE%D0%B2%D0%B0%D1%80%D0%BD%D1%8F+%D0%BC%D1%96%D1%81%D1%86%D0%B5%D0%B2%D0%BE%D1%97+%D0%BA%D1%83%D1%85%D0%BD%D1%96+%D0%9A%D1%83%D0%BC%D0%BF%D0%B5%D0%BB%D1%8C/@49.8392466,24.0339419,17z/data=!3m1!4b1!4m6!3m5!1s0x473add6bef37f283:0x243d7f628f6bdd4f!8m2!3d49.8392466!4d24.0361306!16s%2Fg%2F1hdzv6h1w",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.1708830971174!2d24.0361306!3d49.8392466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6bef37f283%3A0x243d7f628f6bdd4f!2z0KDQtdGB0YLQvtGA0LDQvS3Qv9C40LLQvtCy0LDRgNC90Y8g0LzRltGB0YbQtdCy0L7RlyDQutGD0YXQvdGWINCa0YPQvNC_0LXQu9GM!5e0!3m2!1suk!2sua!4v1680441946631!5m2!1suk!2sua",
     },
   ];
 
+  let havingAPhoho = false;
   return (
     <div>
-      <Header />
-      <div>
+      <Header havingAPhoho={havingAPhoho} />
+      <div className="thirty-institution-page">
         {Kumpel.map((block) => {
           return (
             <ExamplePage

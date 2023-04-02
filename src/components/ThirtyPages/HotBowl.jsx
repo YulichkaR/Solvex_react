@@ -15,14 +15,15 @@ export const Hotbowl = () => {
       thirtyPagesLink: "https://garia4a4asha.choiceqr.com/",
       thirtyPagesInstagram: "https://www.instagram.com/garia4a4asha/",
       thirtyPagesMap:
-        "https://www.google.com/maps/place/%D0%93%D0%B0%D1%80%D1%8F%D1%87%D0%B0+%D0%A7%D0%B0%D1%88%D0%B0/@49.841567,24.0309023,17z/data=!3m1!4b1!4m6!3m5!1s0x473add6c50bf7869:0xf99f908f73d0f174!8m2!3d49.841567!4d24.033091!16s%2Fg%2F11f29xytxv",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.0473937824017!2d24.033091!3d49.841567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6c50bf7869%3A0xf99f908f73d0f174!2z0JPQsNGA0Y_Rh9CwINCn0LDRiNCw!5e0!3m2!1suk!2sua!4v1680441569625!5m2!1suk!2sua",
     },
   ];
 
+  let havingAPhoho = false;
   return (
     <div>
-      <Header />
-      <div>
+      <Header havingAPhoho={havingAPhoho} />
+      <div className="thirty-institution-page">
         {Hotbowl.map((block) => {
           return (
             <ExamplePage

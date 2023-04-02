@@ -15,14 +15,15 @@ export const Sunset = () => {
       thirtyPagesLink: "https://www.facebook.com/sunsetlviv/",
       thirtyPagesInstagram: "https://www.instagram.com/sunset_lviv/",
       thirtyPagesMap:
-        "https://www.google.com/maps/place/%D0%9A%D0%B0%D0%BB%D1%8C%D1%8F%D0%BD+%D0%B1%D0%B0%D1%80+-+Sunset+Lounge+Bar/@49.8484904,24.020158,17z/data=!3m1!4b1!4m6!3m5!1s0x473add59442e7393:0x1f20e0b525a677a8!8m2!3d49.8484904!4d24.0223467!16s%2Fg%2F11fnrdz6wc",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.6789124355237!2d24.022346700000003!3d49.84849039999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add59442e7393%3A0x1f20e0b525a677a8!2z0JrQsNC70YzRj9C9INCx0LDRgCAtIFN1bnNldCBMb3VuZ2UgQmFy!5e0!3m2!1suk!2sua!4v1680442276392!5m2!1suk!2sua",
     },
   ];
 
+  let havingAPhoho = false;
   return (
     <div>
-      <Header />
-      <div>
+      <Header havingAPhoho={havingAPhoho} />
+      <div className="thirty-institution-page">
         {Sunset.map((block) => {
           return (
             <ExamplePage
