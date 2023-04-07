@@ -32,10 +32,12 @@ export const Header = ({ havingAPhoho = false, photoToEachPage = "" }) => {
       </div>
       {havingAPhoho && (
         <>
-          <h1 className="header-text">Знайди своє місце</h1>
-          <p className="header-subtext">
-            Проєкт, покликаний зробити твій вечір затишним
-          </p>
+          <div className="main-header-for-all-pages">
+            <h1 className="header-text">Знайди своє місце</h1>
+            <p className="header-subtext">
+              Проєкт, покликаний зробити твій вечір затишним
+            </p>
+          </div>
         </>
       )}
     </header>

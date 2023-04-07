@@ -42,7 +42,6 @@ import { Goldenstar } from "./components/ThirtyPages/UnderTheGoldenStar";
 import { Valentino } from "./components/ThirtyPages/Valentino";
 import { Warshava } from "./components/ThirtyPages/Warshava";
 import { Lion } from "./components/ThirtyPages/WhiteLion";
-import { Сhurchill } from "./components/ThirtyPages/WinstonChurchill";
 
 function App() {
   return (

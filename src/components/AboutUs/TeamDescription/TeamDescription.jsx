@@ -4,7 +4,7 @@ import Julia from "../../../img/image-7.png";
 import Solomia from "../../../img/image-6.png";
 import Nazar from "../../../img/image-16.png";
 import Valeryi from "../../../img/image-8.png";
-import Sofia from "../../../img/Sofiyka.png";
+import Sofia from "../../../img/Sofiaaa.png";
 import Sviatoslav from "../../../img/image-9.png";
 
 export const TeamDescription = () => {
